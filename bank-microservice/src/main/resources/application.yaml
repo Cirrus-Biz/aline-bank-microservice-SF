@@ -1,0 +1,27 @@
+server:
+  port: 8072
+
+spring:
+  application:
+    name: "bank-microservice"
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+  datasource:
+    username: "stephenfreed"
+    password: "password"
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: "jdbc:mysql://localhost:3306/alinedb"
+    initialization-mode: always
+
+app:
+  sms:
+    enable: false
+  email:
+    enable: false
+  security:
+    secret-key: "?D(G-KaPdSgVkYp3s6v9y$B&E)H@MbQe"
+    jwt:
+      secret-key: "?D(G-KaPdSgVkYp3s6v9y$B&E)H@MbQe"
+
