@@ -48,3 +48,5 @@ local.properties
 .settings/
 .loadpath
 .recommenders
+.DS_Store
+bank-microservice/DS_Store
