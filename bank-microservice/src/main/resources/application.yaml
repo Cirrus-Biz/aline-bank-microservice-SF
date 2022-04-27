@@ -9,10 +9,10 @@ spring:
       ddl-auto: update
     show-sql: false
   datasource:
-    username: "stephenfreed"
-    password: "password"
+    username: "${DB_USERNAME}"
+    password: "${DB_PASSWORD}"
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: "jdbc:mysql://aline-mysql:3306/alinedb"
+    url: "jdbc:mysql://${DB_CONTAINER_NAME}:3306/alinedb"
     initialization-mode: always
 
 app:
@@ -21,7 +21,7 @@ app:
   email:
     enable: false
   security:
-    secret-key: "?D(G-KaPdSgVkYp3s6v9y$B&E)H@MbQe"
+    secret-key: "${SECRET_KEY}"
     jwt:
-      secret-key: "?D(G-KaPdSgVkYp3s6v9y$B&E)H@MbQe"
+      secret-key: "${SECRET_KEY}"
 
