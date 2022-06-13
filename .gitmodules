@@ -1,4 +1,3 @@
 [submodule "core"]
-    path = core
-	; url = git@github.com:Cirrus-Biz/core-SF.git
-	url = git@github.com:Smoothstack-CCT/core.git
+    path = ./core
+	url = git@github.com:Cirrus-Biz/core-SF.git
