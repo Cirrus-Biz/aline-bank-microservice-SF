@@ -1,3 +1,3 @@
-[submodule "core"]
-	path = core
-	url = https://github.com/Cirrus-Biz/core-SF
+[submodule "core-SF"]
+    path = core-SF
+	url = git@github.com:Cirrus-Biz/core-SF.git
