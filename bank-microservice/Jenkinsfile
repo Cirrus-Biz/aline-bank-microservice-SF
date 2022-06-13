@@ -64,7 +64,7 @@ pipeline {
 
         stage('Push Image To ECR') {
             steps {
-                sh 'sudo docker push ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/aline-bank-microservice:${GIT_COMMIT}'
+                sh 'sudo docker push ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/sf-aline-bank-microservice:${GIT_COMMIT}'
             }
         }
 
